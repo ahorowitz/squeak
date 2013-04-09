@@ -1,0 +1,27 @@
+body {
+	font-family:'Helvetica';
+	background: none;
+}
+
+a,h1,h2 {
+	color: #377BA8;
+}
+
+h1 {
+	font-family: 'Georgia';
+	border-bottom: 2px solid #eee;
+}
+
+h2 {
+	font-family: 'Georgia';
+	font-size:1.5em;
+}
+
+.squeak_page {/*this is a class, a way to call style for many elements*/
+	margin: 2em auto; width: 35em; border: 5px solid #ccc; padding:0.8em; background: white;
+}
+
+#logo{/*this is an id, it is a way to call a style but it can only work for one element*/
+	font-family: 'Geneva';
+	font-size: 4em;
+}   
